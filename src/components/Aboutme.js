@@ -1,3 +1,4 @@
+import pic from './personal_pic.jpg';
 export default function Aboutme() {
     return (<>
 
@@ -15,7 +16,7 @@ export default function Aboutme() {
                 </div>
                 <div className="col-sm">
                     <div className="text-center">
-                        <img src="..." classNam="rounded" alt="個人照片" />
+                        <img src={pic} className="rounded img-fluid" alt="個人照片" />
                     </div>
                 </div>
             </div>

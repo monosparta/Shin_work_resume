@@ -53,11 +53,11 @@ const Footer = () => {
 
 const Nav = () => {
   return (<>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded">
-      <div class="container-fluid">
-        <div class="collapse navbar-collapse justify-content-md-center">
-          <ul class="navbar-nav">
-            <li class="nav-item">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-light rounded">
+      <div className="container-fluid">
+        <div className="collapse navbar-collapse justify-content-md-center">
+          <ul className="navbar-nav">
+            <li className="nav-item">
               <h1>Yu-Shin Chen's Resume</h1>
             </li>
           </ul>
