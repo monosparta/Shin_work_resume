@@ -1,4 +1,4 @@
-import pic from './personal_pic.jpg';
+import pic from '../personal_pic.jpg';
 export default function Aboutme() {
     return (<>
 
@@ -218,6 +218,8 @@ export default function Aboutme() {
                         <p></p>
                     </div>
                 </div>
+            </div>
+            <div className="flex">
                 <div className="card" style={{ width: '40rem', margin: '5px 3px' }}>
                     <div className="card-body">
                         <h5 className="card-title">修課名單查詢</h5>
